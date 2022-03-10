@@ -1,10 +1,11 @@
 //get user geolocation if they accept the computer to do so.
+//window will let you use events on the browser window
 window.addEventListener('load', ()=>{
     let long;
     let lat;
 
 
-    //navigator and the rest in if are built in javascript functions
+    //navigator, geolocation, getCurrentPosition in if statement are built in javascript functions
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition
         (position =>{
@@ -36,6 +37,8 @@ window.addEventListener('load', ()=>{
     }
 });
 
+
+//will update the html on your page by finding them through their ID
 function updatePage(town, temp){
     const userTown = document.getElementById('town')
     const userTemp = document.getElementById('temperature')
@@ -46,6 +49,3 @@ function updatePage(town, temp){
 }
 
 
-
-// const apiKey = '46bed509c962ba30dd875de34143c309'
-// 'https://api.openweathermap.org/data/2.5/weather?q=Dover&units=imperial&appid=' + apiKey
