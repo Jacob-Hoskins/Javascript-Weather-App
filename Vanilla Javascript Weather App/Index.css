@@ -1,0 +1,48 @@
+body {
+  background-color: #115cb8;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+aside {
+  background-color: white;
+  margin: auto;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.main-container {
+  border: solid black 2px;
+  margin: auto;
+}
+
+.weather {
+}
